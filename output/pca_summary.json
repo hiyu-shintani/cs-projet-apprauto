@@ -1,0 +1,49 @@
+{
+  "features": [
+    "C",
+    "Si",
+    "Mn",
+    "S",
+    "P",
+    "Ni",
+    "Cr",
+    "Mo",
+    "V",
+    "O",
+    "Ti",
+    "N",
+    "Al",
+    "Nb",
+    "current",
+    "voltage",
+    "heat_input",
+    "interpass_temperature",
+    "pwht_temperature",
+    "pwht_time"
+  ],
+  "removed": [
+    "Cu",
+    "Co",
+    "W",
+    "B",
+    "Sn",
+    "As",
+    "Sb"
+  ],
+  "n": 1329,
+  "pc1": 0.18943037703403207,
+  "pc2": 0.14709846295823667,
+  "n_80_percent": 10,
+  "top_pc1": [
+    "Cr",
+    "Mo",
+    "pwht_temperature",
+    "N"
+  ],
+  "top_pc2": [
+    "current",
+    "heat_input",
+    "voltage",
+    "S"
+  ]
+}

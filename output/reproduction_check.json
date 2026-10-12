@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-12T14:27:32+02:00",
+  "compared_files": {
+    "partitions.csv": {
+      "expected": "761b2c2ae6a20c70d47dab9cacd662b1539b66f6c2a16479d395944412c4c997",
+      "actual": "761b2c2ae6a20c70d47dab9cacd662b1539b66f6c2a16479d395944412c4c997",
+      "identical": true
+    },
+    "selected_models.json": {
+      "expected": "66d041c10ff4e62d84736f56deeff3f4aa883706b876fb99bd7aa1de86cdd2a0",
+      "actual": "66d041c10ff4e62d84736f56deeff3f4aa883706b876fb99bd7aa1de86cdd2a0",
+      "identical": true
+    },
+    "semi_supervised_cv.csv": {
+      "expected": "4cf4056facd7e165191449d8c7ea2f6f6f0d3441d7bfd67aaf50a856932ee118",
+      "actual": "4cf4056facd7e165191449d8c7ea2f6f6f0d3441d7bfd67aaf50a856932ee118",
+      "identical": true
+    },
+    "pseudo_labels_audit.csv": {
+      "expected": "f0d8570bfe15fe98b4c7fcfb4b838947fcda228a6f69abb962342a0b82aafc7b",
+      "actual": "f0d8570bfe15fe98b4c7fcfb4b838947fcda228a6f69abb962342a0b82aafc7b",
+      "identical": true
+    },
+    "test_predictions.csv": {
+      "expected": "b18c556cdafc6301bfbb4a2a3f079c8a90a8104de72cf4c4d92cf714e60e842e",
+      "actual": "b18c556cdafc6301bfbb4a2a3f079c8a90a8104de72cf4c4d92cf714e60e842e",
+      "identical": true
+    },
+    "test_metrics.csv": {
+      "expected": "7267f3916f2e3843d869a22f5475219ecc3819fb3acd37bc88a0ae379672f7f5",
+      "actual": "7267f3916f2e3843d869a22f5475219ecc3819fb3acd37bc88a0ae379672f7f5",
+      "identical": true
+    }
+  },
+  "all_identical": true,
+  "exclusions": "Les durées d'entraînement et horodatages sont variables et exclus."
+}

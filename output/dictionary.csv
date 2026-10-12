@@ -1,0 +1,45 @@
+column,name,description,unit,role
+1,C,Carbone,% massique,entrée
+2,Si,Silicium,% massique,entrée
+3,Mn,Manganèse,% massique,entrée
+4,S,Soufre,% massique,entrée
+5,P,Phosphore,% massique,entrée
+6,Ni,Nickel,% massique,entrée
+7,Cr,Chrome,% massique,entrée
+8,Mo,Molybdène,% massique,entrée
+9,V,Vanadium,% massique,entrée
+10,Cu,Cuivre,% massique,entrée
+11,Co,Cobalt,% massique,entrée
+12,W,Tungstène,% massique,entrée
+13,O,Oxygène,ppm massique,entrée
+14,Ti,Titane,ppm massique,entrée
+15,N,Azote,ppm massique,entrée
+16,Al,Aluminium,ppm massique,entrée
+17,B,Bore,ppm massique,entrée
+18,Nb,Niobium,ppm massique,entrée
+19,Sn,Étain,ppm massique,entrée
+20,As,Arsenic,ppm massique,entrée
+21,Sb,Antimoine,ppm massique,entrée
+22,current,Intensité,A,entrée
+23,voltage,Tension,V,entrée
+24,current_type,Courant AC/DC,catégorie,entrée
+25,polarity,Polarité de l'électrode,catégorie,entrée
+26,heat_input,Apport thermique,kJ/mm,entrée
+27,interpass_temperature,Température entre passes,°C,entrée
+28,weld_type,Procédé de soudage,catégorie,entrée
+29,pwht_temperature,Température de traitement après soudage,°C,entrée
+30,pwht_time,Durée de traitement après soudage,h,entrée
+31,yield_strength,Limite d'élasticité,MPa,exclue des entrées
+32,tensile_strength,Résistance à la traction,MPa,cible
+33,elongation,Allongement à rupture,%,exclue des entrées
+34,reduction_area,Réduction de section,%,exclue des entrées
+35,charpy_temperature,Température de l'essai Charpy,°C,exclue des entrées
+36,charpy_toughness,Énergie absorbée Charpy,J,exclue des entrées
+37,hardness,Dureté,kg/mm²,exclue des entrées
+38,fatt_50,Température de transition 50 % FATT,non précisée (température),exclue des entrées
+39,primary_ferrite,Ferrite primaire,%,exclue des entrées
+40,ferrite_second_phase,Ferrite avec seconde phase,%,exclue des entrées
+41,acicular_ferrite,Ferrite aciculaire,%,exclue des entrées
+42,martensite,Martensite,%,exclue des entrées
+43,ferrite_carbide,Ferrite avec agrégats de carbures,%,exclue des entrées
+44,weld_id,Identifiant de soudure,identifiant,groupement

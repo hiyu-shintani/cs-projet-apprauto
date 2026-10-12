@@ -1,0 +1,26 @@
+{
+  "threshold": 575.0,
+  "development_rows": 1329,
+  "test_rows": 323,
+  "development_groups": 520,
+  "test_groups": 131,
+  "development_labeled": 593,
+  "test_labeled": 145,
+  "test_class_0": 68,
+  "test_class_1": 77,
+  "supervised_winner": "foret",
+  "ssl": {
+    "fraction": 1.0,
+    "seed": 42,
+    "threshold": 575.0,
+    "n_visible": 593,
+    "n_unlabeled": 736,
+    "n_pseudo": 362,
+    "pseudo_0": 177,
+    "pseudo_1": 185,
+    "iterations": 10,
+    "termination": "max_iter",
+    "checked_pseudo": 0,
+    "pseudo_accuracy_masked": null
+  }
+}

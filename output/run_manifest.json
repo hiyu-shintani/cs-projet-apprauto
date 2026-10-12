@@ -1,0 +1,20 @@
+{
+  "completed_at": "2026-10-12T14:45:35+02:00",
+  "python": "3.12.9",
+  "seed": 42,
+  "cv_folds": 5,
+  "confidence": 0.9,
+  "max_ssl_iterations": 10,
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.11.2",
+    "reportlab": "4.5.1"
+  },
+  "data_sha256": "493b2ec7c2e46e93260040194d86ae35fb8579802c048f94f89539d466b7e6ca",
+  "source_sha256": "b6db1808da25b4fd31def59b1624f3e2cda7bd9e66453acf26dafd23b786c5a5",
+  "protocol": "grouped_holdout_train_median_foldwise_cv_self_training",
+  "executed_source_sha256": "61c85b1e7630e002c41672444245aeef419dbf4a1a7e7b7623e5b48aabe28ff6",
+  "source_changes_since_run": "Commentaires et suppression de la journalisation ; calculs inchangés (comparaison AST hors journalisation)."
+}

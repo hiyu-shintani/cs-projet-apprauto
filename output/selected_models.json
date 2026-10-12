@@ -1,0 +1,50 @@
+{
+  "models": {
+    "majoritaire": {
+      "model": "majoritaire",
+      "params": {},
+      "f1_mean": 0.34767685760521344,
+      "f1_std": 0.027280173327969327,
+      "accuracy_mean": 0.5350967362307901
+    },
+    "knn": {
+      "model": "knn",
+      "params": {
+        "n_neighbors": 5
+      },
+      "f1_mean": 0.7993367764969264,
+      "f1_std": 0.03305823673992037,
+      "accuracy_mean": 0.8022975554009453
+    },
+    "arbre": {
+      "model": "arbre",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      "f1_mean": 0.7511614933468839,
+      "f1_std": 0.022198911006508552,
+      "accuracy_mean": 0.7607152411852758
+    },
+    "foret": {
+      "model": "foret",
+      "params": {
+        "max_depth": 10,
+        "min_samples_leaf": 2
+      },
+      "f1_mean": 0.8377997366439967,
+      "f1_std": 0.02764890183654604,
+      "accuracy_mean": 0.8405243424673795
+    }
+  },
+  "winner": {
+    "model": "foret",
+    "params": {
+      "max_depth": 10,
+      "min_samples_leaf": 2
+    },
+    "f1_mean": 0.8377997366439967,
+    "f1_std": 0.02764890183654604,
+    "accuracy_mean": 0.8405243424673795
+  }
+}

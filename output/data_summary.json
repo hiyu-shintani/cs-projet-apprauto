@@ -1,0 +1,15 @@
+{
+  "rows": 1652,
+  "columns": 44,
+  "labeled": 738,
+  "unlabeled": 914,
+  "groups": 651,
+  "unique_ids": 1490,
+  "unique_profiles": 1001,
+  "full_duplicates": 0,
+  "converted_cells": 1731,
+  "censored_input_cells": 1574,
+  "target_min": 447.0,
+  "target_max": 1151.0,
+  "target_median_descriptive": 575.5
+}

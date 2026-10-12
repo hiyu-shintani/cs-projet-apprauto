@@ -1,0 +1,1 @@
+"""Scripts du projet."""

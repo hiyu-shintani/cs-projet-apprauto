@@ -1,0 +1,19 @@
+|--- num__Mo <= 0.03
+|   |--- num__Mn <= 1.44
+|   |   |--- num__Nb <= 135.00
+|   |   |   |--- class: 0
+|   |   |--- num__Nb >  135.00
+|   |   |   |--- class: 1
+|   |--- num__Mn >  1.44
+|   |   |--- num__Mn <= 1.75
+|   |   |   |--- class: 1
+|   |   |--- num__Mn >  1.75
+|   |   |   |--- class: 1
+|--- num__Mo >  0.03
+|   |--- cat__polarity_manquant <= 0.50
+|   |   |--- num__heat_input <= 3.45
+|   |   |   |--- class: 1
+|   |   |--- num__heat_input >  3.45
+|   |   |   |--- class: 1
+|   |--- cat__polarity_manquant >  0.50
+|   |   |--- class: 1
